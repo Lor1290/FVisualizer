@@ -1,5 +1,4 @@
 
-<h1>Fexplorer<\h1>
-<hr \>
+#Fexplorer
   
 A Multi-OS file explorer made in FORTRAN 2018
