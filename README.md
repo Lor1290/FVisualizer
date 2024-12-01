@@ -1,6 +1,6 @@
 
-# Fexplorer
+# FExercise
 
 <p align = "center">
-  A Multi-OS file explorer made in FORTRAN 2018 
+  A GitHub repo that help you to learn Fortran 2018 
 </p>
