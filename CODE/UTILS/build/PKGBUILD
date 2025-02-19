@@ -1,0 +1,40 @@
+pkgname=plplot-fortran
+pkgver=5.13.0
+pkgrel=1
+pkgdesc="A scientific plotting library with Fortran bindings"
+arch=('x86_64')
+url="https://www.plplot.org/"
+license=('custom')
+depends=('cmake' 'gcc-fortran' 'gtk3')
+makedepends=('cmake')
+optdepends=('wxwidgets-gtk3: wxWidgets GUI toolkit')
+
+source=("https://github.com/PLplot/PLplot/archive/refs/tags/plplot-5.13.0.tar.gz")
+sha256sums=('SKIP')
+
+build() {
+  cd ${srcdir}/${pkgname}-${pkgver}
+  if [ -d build ]; then
+      rm -r build
+  fi
+  mkdir build
+  cd build
+  CC=/usr/bin/gcc
+  CXX=/usr/bin/g++
+  cmake -DCMAKE_INSTALL_PREFIX=/usr \
+      -DENABLE_octave=off \
+      -DENABLE_tcl=ON \
+      -DENABLE_tk=ON \
+      -DENABLE_fortran=ON \
+      -DPLPLOT_USE_QT5=1 \
+      -DPL_FREETYPE_FONT_PATH=/usr/share/fonts/TTF \
+      -DENABLE_wxwidgets=ON \
+      -DPLD_wxwidgets=ON..
+  find. -name '*.make' -exec sed -i '|-isystem /usr/include ||g' '{}' ';'
+  make
+}
+
+package() {
+  cd ${srcdir}/${pkgname}-${pkgver}/build
+  make DESTDIR="${pkgdir}" install
+}
