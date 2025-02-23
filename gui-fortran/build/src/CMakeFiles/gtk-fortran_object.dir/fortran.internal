@@ -1,0 +1,28 @@
+# The fortran modules provided by this target.
+provides
+ cairo.mod
+ g.mod
+ gdk.mod
+ gdk_events.mod
+ gdk_pixbuf.mod
+ gdk_pixbuf_hl.mod
+ graphene.mod
+ gsk.mod
+ gtk.mod
+ gtk_draw_hl.mod
+ gtk_hl.mod
+ gtk_hl_assistant.mod
+ gtk_hl_button.mod
+ gtk_hl_chooser.mod
+ gtk_hl_combobox.mod
+ gtk_hl_container.mod
+ gtk_hl_dialog.mod
+ gtk_hl_entry.mod
+ gtk_hl_infobar.mod
+ gtk_hl_misc.mod
+ gtk_hl_progress.mod
+ gtk_hl_spin_slider.mod
+ gtk_hl_tree.mod
+ gtk_os_dependent.mod
+ gtk_sup.mod
+ pango.mod

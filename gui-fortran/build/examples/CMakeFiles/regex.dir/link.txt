@@ -1,0 +1,1 @@
+/usr/bin/f95 -rdynamic -Wl,--dependency-file=CMakeFiles/regex.dir/link.d -pthread -O3 -mtune=native -march=native CMakeFiles/regex.dir/regex.f90.o -o regex  ../src/libgtk-4-fortran.a -lgtk-4 -lpangocairo-1.0 -lpango-1.0 -lharfbuzz -lgdk_pixbuf-2.0 -lcairo-gobject -lcairo -lvulkan -lgraphene-1.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0

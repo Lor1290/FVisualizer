@@ -1,0 +1,5 @@
+# The fortran modules provided by this target.
+provides
+ common_ex4.mod
+ handlers_ex4.mod
+ plplot_code_ex4.mod

@@ -1,0 +1,5 @@
+# The fortran modules provided by this target.
+provides
+ handlers.mod
+ my_widgets.mod
+ various_functions.mod
