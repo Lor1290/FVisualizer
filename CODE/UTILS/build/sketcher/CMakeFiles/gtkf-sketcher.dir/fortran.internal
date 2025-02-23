@@ -1,5 +1,0 @@
-# The fortran modules provided by this target.
-provides
- connect.mod
- handlers.mod
- widgets.mod

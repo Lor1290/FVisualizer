@@ -1,4 +1,0 @@
-# The fortran modules provided by this target.
-provides
- handlers.mod
- scientific_computation.mod

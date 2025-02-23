@@ -1,1 +1,0 @@
-/usr/bin/f95 -rdynamic -pthread -O3 -mtune=native -march=native CMakeFiles/hl_textview.dir/hl_textview.f90.o -o hl_textview  ../src/libgtk-4-fortran.a -lgtk-4 -lharfbuzz -lpangocairo-1.0 -lpango-1.0 -lgdk_pixbuf-2.0 -lcairo-gobject -lcairo -lvulkan -lgraphene-1.0 -lgio-2.0 -lglib-2.0 -lgobject-2.0
