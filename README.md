@@ -20,7 +20,7 @@ can directly provide a photo of the equation to the algorithm and won't need to 
 Un'applicazione con GTK, ma in FORTRAN 2018? Sì. Ho deciso di sviluppare questa app multi-OS <br /> 
 come sfida personale. Tutto ciò è nato inizialmente come una sfida tra i miei amici, che mi dissero <br /> 
 di fare un'applicazione simile a "Desmos" usando uno dei linguaggi di programmazione più difficili <br /> 
-che conosco. Inizialmente volevo farlo in C, visto che GTK viene principalmente usato con esso, ma ho fatto una <br />  
+che conosco. Inizialmente volevo farlo in C, visto che GTK viene principalmente usato con esso, ma ho fatto una
 promessa. Questa applicazione è ancora nelle sue prime fasi di sviluppo, e la sua versione definitiva <br /> 
 sicuramente implementerà anche un OCR scritto in Python, così l'utente potrà inserire direttamente una foto dell' <br /> 
 equazione, senza doverla scrivere.
